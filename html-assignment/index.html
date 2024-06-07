@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment nguy1122</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
-        <h1>Peter Nguyen</h1>
+        <h1 class="site-title">Peter Nguyen</h1>
     </header>
     <article>
         <h2>About me</h2>
@@ -27,11 +28,11 @@
     </article>
     <section>
         <h2>My Photo</h2>
-        <img src="Images/trung.jpeg" alt="Trung's Photo" width="200px" height="250px">
+        <img id="my-image" src="Images/trung.jpeg" alt="Trung's Photo" width="200px" height="250px">
     </section>
     <section>
         <h2>My hobbies</h2>
-        <ul>
+        <ul class="square-bullets">
             <li>Playing Soccer</li>
             <li>Watching Movie</li>
             <li>Listening to Music</li>
@@ -40,8 +41,13 @@
         </ul>
     </section>
     <nav>
-        <h2>Go to Next page <a href="/html-assignment/notes.html" >here</a> </h2>
+        <ul>
+            <li class="nav-list"><h2>Go to Next page <a class="next-page-link" href="/html-assignment/notes.html" >here</a> </h2></li>
+        </ul>
     </nav>
+    <footer>
+        &#169 Copyright 2024 by Peter Nguyen 
+    </footer>
 </body>
-<footer>&#169 Copyright 2024 by Peter Nguyen </footer>
+
 </html>
