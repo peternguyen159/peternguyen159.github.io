@@ -7,12 +7,12 @@ body {
 }
 
 /* Cover image positioning */
-.image-container {
+header{
     position: relative;
     display: inline;
   }
   
-  .image-container img {
+  header img {
     display: block;
     width: 100%;
     height: 300px;
