@@ -37,7 +37,7 @@ header{
 
 /* Make a list horizontally */
 
-ul {
+.navigation ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -45,7 +45,7 @@ ul {
   }
   
   
-  li {
+.navigation ul li {
     display: inline-block;
     color: white;
     text-align: center;
@@ -55,21 +55,21 @@ ul {
     width: 320px;
     box-sizing: border-box;
     border-left: none;
-    border-right: 2px solid black;
+    border-right: 1px solid black;
 
   }
 
   /* Delete last border right line  */
-  ul li:nth-child(3) {
+  .navigation ul li:nth-child(3) {
     border-right: none;
   }
   /* Remove underline and add color for text  */
-  li a {
+  .navigation ul li a {
     color: black;
     text-decoration: none;
   }
   /* Change text color when hover */
-  li a:hover {
+  .navigation ul li a:hover {
     color: red;
   }
 
@@ -96,6 +96,22 @@ ul {
     padding: 5px;
   }
 
+  /* Design the box  */
+  .contact-box {
+    border: 1px solid black;
+    margin: 10px;
+  }
+
+  form {
+    margin: 10px;
+    padding: 5px;
+  }
+  form input {
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    margin: 10px;
+  }
 
 
 
