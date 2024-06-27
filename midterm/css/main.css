@@ -1,0 +1,62 @@
+/* Set up background color and position content field */
+body {
+    margin-left:15% ;
+    margin-right: 15%;
+    padding: 10px 10px;
+    background-color:lightblue;
+}
+
+/* Cover image positioning */
+.image-container {
+    position: relative;
+    display: inline;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);  
+    color: red; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+  }
+
+/* Make a list horizontally */
+
+ul {
+    list-style-type: none;
+    margin:0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+
+
+
+
+
