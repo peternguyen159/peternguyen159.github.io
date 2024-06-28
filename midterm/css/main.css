@@ -34,7 +34,10 @@ header{
 .wrapper {
     background-color: bisque;
     padding: 10px;
+    box-sizing: border-box;
     position: relative;
+    max-height: fit-content;
+
 }
 
 /* Make a list horizontally */
@@ -102,7 +105,7 @@ header{
   .contact-box {
     border: 1px solid black;
     padding: 10px;
-    margin: auto;
+    margin: 15px;
     display: block;
   }
 
@@ -112,8 +115,8 @@ header{
   form input {
     width: 100%;
     height: fit-content;
-    padding: 5px;
-    margin: 5px;
+    padding: 0px;
+    margin: 0px;
   }
  /* Make more space for the message field  */
  .input-field-3 {
@@ -121,11 +124,13 @@ header{
     overflow: scroll;
  } 
 
-/* Move fotter content to right  */
-
-.wrapper footer {
-    right: 10%;
+/* Move footer content to right  */
+footer p {
     position: absolute;
+    right: 40px;
+    bottom: 1px;
+    margin-bottom: 2px;
+   
 }
 
 
