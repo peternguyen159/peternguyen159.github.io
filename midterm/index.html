@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 <body>
         <!-- header has an image in html with h1 overlapped  -->
     <header>
-        <img src="https://inkythuatso.com/uploads/thumbnails/800/2022/04/hinh-anh-bien-dep-27-12-09-12-15.jpg" alt="Startfish Cover Image">
+        <img src="https://inkythuatso.com/uploads/thumbnails/800/2022/04/hinh-anh-bien-dep-27-12-09-12-15.jpg" alt="Starfish Cover Image">
         <div class="overlay-text">
             <h1>Lone Starfish</h1>
         </div>
@@ -18,20 +18,20 @@
     <!-- Wrapper for the main content  -->
     <div class="wrapper">
         <!-- Making navigation list  -->
-        <section class="navigation">
+        <div class="navigation">
             <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">STORY</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
-        </section>
-        <section>
-            <h2>Life of Starfish</h2>
-            <!-- Wrapping text around the image  -->
-            <div class="wrapping-text">
-                <img src="images/startfish-2.jpg" alt="Starfish Avarta">
-                <article >
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab natus nobis explicabo accusantium quaerat quas iure fugit excepturi libero consequunt  recusandae a eos. Nostrum iste id ipsum totam Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+       
+         <!-- Wrapping text around the image  -->
+        <div class="wrapping-text">
+            <img src="images/startfish-2.jpg" alt="Starfish Avarta">
+            <article >
+                <h2>Life of Starfish</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab natus nobis explicabo accusantium quaerat quas iure fugit excepturi libero consequunt  recusandae a eos. Nostrum iste id ipsum totam Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Iste enim, in pariatur minima ullam quibusdam quam aliquam adipisci similique dolorem accusamus, quasi quaerat blanditiis explicabo corporis quis alias
                     officiis! Non!similique eius.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab natus nobis explicabo accusantium quaerat quas iure fugit excepturi libero consequuntur
                     recusandae a eos. Nostrum iste id ipsum totam Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste enim, in pariatur minima ullam quibusdam quam aliquam adipisci similique dolorem accusamus, quasi quaerat blanditiis explicabo corporis quis alias
@@ -39,10 +39,10 @@
                     recusandae a eos. Nostrum iste id ipsum totam Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste enim, in pariatur minima ullam quibusdam quam aliquam adipisci similique dolorem accusamus, quasi quaerat blanditiis explicabo corporis quis alias
                     officiis! Non!similique eius.Nostrum iste id ipsum totam Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste enim, in pariatur minima ullam quibusdam quam aliquam adipisci similique dolorem accusamus, quasi quaerat blanditiis explicabo corporis quis alias
                     officiis! Non!similique eius</p>
-                </article>
-            </div>
+            </article>
+        </div>
 
-        </section>
+      
 
         <!-- Make a lists of Facts -->
         <section >
@@ -62,28 +62,28 @@
             <div class="contact-box">
                     <form>
                         <label for="name">Your Name</label>
-                        <input type="text" class="input-field" placeholder="Peter Nguyen">
+                        <input type="text" id="name" placeholder="Peter Nguyen">
                     </form>
                     <form>
                         <label for="email">Your Email</label>
-                        <input type="text" class="input-field" placeholder="nguy123@algonquinlive.com">
+                        <input type="text" id="email" class="input-field" placeholder="nguy123@algonquinlive.com">
                     </form>
                     <form> 
                         <label for="message">Your Message</label> 
-                        <textarea name="Your Message" id="textarea" placeholder="Type..."></textarea>
+                        <textarea name="Your Message" id="message" placeholder="Type..."></textarea>
                     </form>
-                    <label for="option"> Would you like to visit the startfish</label>
+                    <p> Would you like to visit the startfish</p>
                     <div class="option">
                         <label class="radio">
-                        <input type="radio" name="answer" />
+                        <input type="radio" id="yes-option" name="answer">
                         Yes
                         </label>
                         <label class="radio">
-                        <input type="radio" name="answer" />
+                        <input type="radio" id="no-option" name="answer">
                         No
                         </label>
                         <label class="radio">
-                        <input type="radio" name="answer">
+                        <input type="radio" id="maybe-option" name="answer">
                         Maybe 
                         </label>
                     <!-- </div> -->
@@ -92,7 +92,7 @@
                 <input type="submit" value="Send">
             </div>
         </section>
-                <!-- Create a footer content with special icon  -->
+                <!-- Create a footer content with a special icon  -->
          <footer>
             <p>&#169; Lone Starfish.</p>
          </footer>
